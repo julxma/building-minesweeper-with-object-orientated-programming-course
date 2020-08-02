@@ -5,13 +5,16 @@ description: >-
 template:
   repo: building-minesweeper-with-object-orientated-programming-template
   name: building-minesweeper-with-object-orientated-programming
+  description: Building Minesweeper game
 before:
   - type: createIssue
-    title: Welcome!
+    title: Welcome to Building Minesweeper!
     body: new-issue.md
 steps:
-  - title: First step
-    description: The first step in your course
+  - title: Welcome to Minesweper!
+    description: >-
+      Let's object-oriented programming to build a classic and nostalgic
+      Minesweeper game in Python!
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
