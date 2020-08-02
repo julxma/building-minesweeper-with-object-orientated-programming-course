@@ -1,0 +1,18 @@
+title: Building Minesweeper with Object-Orientated-Programming
+description: >-
+  In this course you will learn to build the class game of Minesweeper with
+  Python.
+template:
+  repo: building-minesweeper-with-object-orientated-programming-template
+  name: building-minesweeper-with-object-orientated-programming
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
